@@ -8,8 +8,10 @@
         {
             "type": "chrome",
             "request": "launch",
-            "outputCapture": "std",
-            "webRoot": "${workspaceFolder}"
+            //"outputCapture": "std",
+            "webRoot": "${workspaceFolder}",
+            "name": "Rock Paper Scissors",
+            "file":"${workspaceFolder}/index.html"
         }
     ]
 }
